@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Recipe page</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <div class="flex items-center flex-col  min-h-screen md:bg-rose-50">
+      <!--main container-->
+      <div
+        class="bg-white md:m-10 md:border md:border-white md: rounded-lg md:p-7 duration-300 md:w-[690px] md:my-20"
+      >
+        <!--recipe pic-->
+        <img
+          src="./assets/images/image-omelette.jpeg"
+          alt=""
+          class="h-[200px] w-full object-cover md:w-full md:rounded-lg"
+        />
+
+        <!--recipe decription-->
+        <div class="flex flex-col m-6 md:m-0">
+          <div class="py-5">
+            <!--Heading-->
+            <h1 class="text-left text-2xl font-bold mb-4 text-stone-900 my-6">
+              Simple Omelette Recipe
+            </h1>
+            <p class="outfit-400 text-stone-600">
+              An easy and quick dish, perfect for any meal. This classic
+              omelette combines beaten eggs cooked to perfection, optionally
+              filled with your choice of cheese, vegetables, or meats.
+            </p>
+          </div>
+
+          <!--preparation Time-->
+          <div class="bg-rose-50 py-5 px-7 rounded-lg my-6">
+            <h3 class="text-rose-800 outfit-600 mb-3">Preparation time</h3>
+            <ul class="list-disc list-inside marker:text-rose-800">
+              <li>
+                <span class="outfit-600 text-stone-900">Total:</span
+                ><span class="text-stone-600"> Approximately 10 minutes</span>
+              </li>
+              <li>
+                <span class="outfit-600 text-stone-900">Preparation:</span
+                ><span class="text-stone-600"> 5 minutes</span>
+              </li>
+              <li>
+                <span class="outfit-600 text-stone-900">Cooking:</span>
+                <span class="text-stone-600">5 minutes</span>
+              </li>
+            </ul>
+          </div>
+
+          <!--Ingredients-->
+          <div class="py-4 my-4">
+            <h2 class="young-serif text-[20px] mb-3">Ingredients</h2>
+            <ul class="list-disc marker:text-Brown-800 list-inside">
+              <li class="text-stone-600">2-3 large eggs</li>
+              <li class="text-stone-600">Salt, to taste</li>
+              <li class="text-stone-600">Pepper, to taste</li>
+              <li class="text-stone-600">1 tablespoon of butter or oil</li>
+              <li class="text-stone-600">
+                Optional fillings: cheese, diced vegetables, cooked meats, herbs
+              </li>
+            </ul>
+          </div>
+          <!--divider-->
+          <div class="border border-stone-150 my-2"></div>
+          <!--instructions-->
+          <div class="py-4 my-4">
+            <h2 class="young-serif text-[20px] mb-3">Instructions</h2>
+            <ol
+              class="list-decimal marker:text-Brown-800 list-inside marker:font-semibold"
+            >
+              <li class="text-stone-600">
+                <span class="outfit-600 text-stone-900">Beat the eggs:</span> In
+                a bowl, beat the eggs with a pinch of salt and pepper until they
+                are well mixed. You can add a tablespoon of water or milk for a
+                fluffier texture.
+              </li>
+              <li class="text-stone-600">
+                <span class="outfit-600 text-stone-900"> Heat the pan: </span
+                >Place a non-stick frying pan over medium heat and add butter or
+                oil.
+              </li>
+              <li class="text-stone-600">
+                <span class="outfit-600 text-stone-900"
+                  >Cook the omelette: </span
+                >Once the butter is melted and bubbling, pour in the eggs. Tilt
+                the pan to ensure the eggs evenly coat the surface.
+              </li>
+              <li class="text-stone-600">
+                <span class="outfit-600 text-stone-900"
+                  >Add fillings (optional): </span
+                >When the eggs begin to set at the edges but are still slightly
+                runny in the middle, sprinkle your chosen fillings over one half
+                of the omelette.
+              </li>
+              <li class="text-stone-600">
+                <span class="outfit-600 text-stone-900"> </span>As the omelette
+                continues to cook, carefully lift one edge and fold it over the
+                fillings. Let it cook for another minute, then slide it onto a
+                plate.
+              </li>
+              <li class="text-stone-600">
+                <span class="outfit-600 text-stone-900"> Enjoy: </span>Serve
+                hot, with additional salt and pepper if needed.
+              </li>
+            </ol>
+          </div>
+
+          <!--divider-->
+          <div class="border border-stone-150 my-2"></div>
+
+          <!--Nutrition-->
+          <div class="py-4 my-4">
+            <h2 class="young-serif text-[20px] mb-3">Nutrition</h2>
+
+            <p class="text-stone-600 mb-2">
+              The table below shows nutritional values per serving without the
+              additional fillings.
+            </p>
+
+            <table class="w-full">
+              <tr class="border-b border-b-stone-150">
+                <td class="text-stone-600 px-4 py-3">Calories</td>
+                <td class="text-Brown-800 outfit-600 py-3">277kcal</td>
+              </tr>
+              <tr class="border-b border-b-stone-150">
+                <td class="text-stone-600 px-4 py-3">Carbs</td>
+                <td class="text-Brown-800 outfit-600 py-3">0g</td>
+              </tr>
+              <tr class="border-b border-b-stone-150">
+                <td class="text-stone-600 px-4 py-3">Protein</td>
+                <td class="text-Brown-800 outfit-600 py-3">20g</td>
+              </tr>
+              <tr class="">
+                <td class="text-stone-600 px-4 py-3">Fat</td>
+                <td class="text-Brown-800 outfit-600 py-3">22g</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-stone-600 mb-6">
+      Challenge by
+      <a class="text-blue-500" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a class="text-blue-500 " href="https://github.com/Chisomworlu12">Chisom</a>.
+    </div>
+    </div>
+
+    
+  </body>
+</html>

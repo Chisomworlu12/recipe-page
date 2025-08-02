@@ -1,0 +1,14 @@
+
+*.sketch
+*.fig
+
+
+*.xd
+
+
+.DS_Store
+.prettierignore
+node_modules/
+design/
+.preview.jpg
+.style-guide.md
