@@ -18,7 +18,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 I completed the frontend mentor challenge of building a reciep page. i built it with **HTML** and **Tailwind CSS**. I learnet how to design a table with **Tailwind CSS**
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](./screenshot/screenshot.jpeg)
 
 
 
